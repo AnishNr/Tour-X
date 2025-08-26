@@ -8,15 +8,10 @@ A responsive travel website built with **HTML, CSS, and JavaScript**.
 - Sections for destinations, packages, and contact info
 
 ## 🚀 Live Demo
-[Click here to view the website](https://AnishNr.github.io/Tour-X/)
+ 
+[Click here to view the website ](https://AnishNr.github.io/Tour-X/)
+[![Travel Website Screenshot](images/anishnr.github.io_Tour-X_.png)] 
 
-## 📂 Project Structure
-travel-website/
-│── index.html
-│── style.css
-│── script.js
-│── images/
-│── README.md
 
 ## 🛠️ Technologies Used
 - HTML5
