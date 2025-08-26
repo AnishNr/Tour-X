@@ -1,0 +1,211 @@
+/* for resposiveness  */
+
+@media screen and (max-width:1259px){
+    .offers{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:1244px){
+    header{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:1175px){
+
+    
+    .offers{
+        width: 97%;
+    }
+
+    .header{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:1103px){
+    header .trip_bx .search_bx{
+        width:70%;
+    }
+}
+
+@media screen and (max-width:1026px){
+    .destination{
+        width:58%;
+    }
+}
+
+@media screen and (max-width:1008px){
+   
+    header .trip_bx .travel_bx .cards .card {
+        min-width: 220px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        
+   }
+
+   header .trip_bx .travel_bx .cards{
+    overflow: auto;
+    overflow-y: hidden;
+   }
+
+}
+
+@media screen and (max-width:946px){
+
+     header .trip_bx .search_bx{
+        width:85%;
+    }
+
+    .offers{
+        width: 99%;
+    }
+}
+
+@media screen and (max-width:891px){
+    .offers .cards .card:nth-child(4){
+        margin: auto;
+    }
+    .offers .cards {
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width:783px){
+     header .trip_bx .search_bx{
+        width:95%;
+    }
+    .destination{
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width:682px){
+    header nav ul{
+        position: absolute;
+        width: 130px;
+        height: auto;
+        flex-direction: column;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px gray;
+        justify-content: center;
+        top: 5%;
+        right: 46px;
+        z-index:9999999;
+        padding: 10px 20px;
+        transition: .5s linear;
+    }
+
+    /* javascript */
+    header nav .ul_active{
+       top: 0%;
+    }
+    header nav .bi-three-dots{
+    display: unset;
+    }
+
+    header nav ul li{
+        padding: 8px 0px;
+        text-align: center;
+    }
+
+    header nav .bi-three-dots{
+        display: unset;
+    }
+
+    header nav h4{
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width:700px){
+
+       header .trip_bx .search_bx{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:682px){
+    header .trip_bx .search_bx{
+        position: absolute;
+        width: 212px;
+        height: auto;
+        flex-direction: column;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px gray;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        top: 0px;
+        z-index:9999999;
+        padding: 10px 20px;
+    }
+
+    header .trip_bx .search_bx .card{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin-bottom: 15px;
+    }
+
+    header .trip_bx .search_bx .card input{
+        padding-left: 40px;
+    }
+
+    header .trip_bx .travel_bx .cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .offers {
+        margin-top: 1100px;
+    }
+    
+    .offers .cards {
+        justify-content: center;
+    }
+
+    header .trip_bx .travel_bx {
+        top:230px;
+    }
+
+
+
+    header .trip_bx .travel_bx .cards .card {
+        width: 297px;
+        height: 254px;   
+     }
+
+  
+   .offers .cards .card:nth-child(3){
+        justify-content: center;
+   }
+   .destination{
+       width: 80%;
+   }
+
+
+
+
+
+
+}
+
+@media screen and (max-width:553px){
+    .destination{
+          display: flex;
+          flex-direction: column;
+    }
+
+   .destination .img_bx img {
+    width: 118%;
+    height: 427px;
+    margin-top: 20px;
+  }
+}
